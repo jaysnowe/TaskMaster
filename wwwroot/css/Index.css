@@ -1,0 +1,24 @@
+.container{
+    background-image: url("wood-board-background_1339-5418.jpg") ;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    /* border-style: solid; */
+    /* width: 100%;
+    height: 100%; */
+    
+} 
+
+#entirity{
+    margin-bottom: 10px;
+}
+
+.sticky{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}

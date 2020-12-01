@@ -1,0 +1,18 @@
+@{
+    ViewData["Title"] = "Task List";
+    Layout = "_Layout";
+}
+
+@section Styles{
+    <link href="~/css/Index.css" rel="stylesheet" type="text/css" />
+}
+
+<div id="entirity">
+    <h2>Task Index</h2>
+
+    <div class="taskholder">
+        <div id="oneTask"class="sticky" onclick="AddText()" >Sticky text</div>
+        
+        <button id="new" onclick="AddNewTask()">Add New Task</button>
+    </div>
+</div>
